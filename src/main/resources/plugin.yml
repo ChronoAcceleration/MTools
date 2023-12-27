@@ -1,0 +1,18 @@
+name: MTools
+version: '${project.version}'
+main: org.chronoplugins.mtools.MTools
+api-version: '1.20'
+description: Silly plugin for silly destructive tools.
+commands:
+  stickwand:
+    description: Give a wand.
+    usage: /<command> <player?>
+    permission: mtools.wand
+    permission-message: You don't have permission to use this command.
+    aliases: [sw, givewand]
+  removewand:
+    description: Remove a wand.
+    usage: /<command> <player?>
+    permission: mtools.wand
+    permission-message: You don't have permission to use this command.
+    aliases: [rw, removewand]
